@@ -1,0 +1,39 @@
+html {
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A5F2F3;
+    border-radius: 4px; 
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: lightgrey;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/* Centered the H2 and increased the font size */
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.form-inline {
+    position: relative;
+    left: 290px;
+    top: 40px;
+}
